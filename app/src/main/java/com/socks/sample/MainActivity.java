@@ -69,7 +69,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void logDebug(View view) {
         KLog.debug();
-        KLog.debug("This is a debug message");
+        KLog.debug("This is a debug test message");
         KLog.debug("DEBUG", "params1", "params2", this);
     }
 
